@@ -155,21 +155,17 @@ Add to ``~/.bashrc``::
         . ~/.django/django_bash_completion
     fi
 
-Ruby & Rails
-------------
+Ruby
+----
 
-This installs both Ruby and Rails in one go::
+Install::
 
-    \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enabled
+    brew install rbenv ruby-build rbenv-gem-rehash
 
-Sass::
+Pick a version::
 
-    gem install sass
-
-Less::
-
-    brew install node
-    npm install -g less
+    rbenv install 2.1.5
+    rbenv global 2.1.5
 
 Version Control
 ===============
