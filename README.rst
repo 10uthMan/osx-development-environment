@@ -492,10 +492,11 @@ Image processing utils
 OSXFUSE
 -------
 
-If you use Parallels or another VM to run a project, you can mount the project folder from the VM to your OSX file system.
-This allows you to use your preferred OSX text editor and usual Finder operations.
+If you use Parallels or another VM to run a project, you can mount the project folder from the VM to your OS X file system.
+This allows you to use your preferred OS X text editor and usual Finder operations.
 
 Download the latest release from the `official site <http://osxfuse.github.io/>`_.
+Be sure to also install SSHFS which is also available from the OSXFUSE website.
 Do not install using homebrew on Yosemite or later as Apple requires kernel extensions to be signed.
 Homebrew builds from source and thus there is no signature.
 See `this issue <https://github.com/osxfuse/osxfuse/issues/150>`_ for more information.
