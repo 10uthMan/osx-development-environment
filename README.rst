@@ -151,9 +151,7 @@ Django bash completion::
 
 Add to ``~/.bashrc``::
 
-    if [ -f ~/.django/django_bash_completion ]; then
-        . ~/.django/django_bash_completion
-    fi
+    . ~/.django/django_bash_completion
 
 Ruby
 ----
